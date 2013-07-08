@@ -12,7 +12,7 @@ function displayChildrenRecursive($xmlObj, $depth = 0)
 {
 	if ( count($xmlObj->children()) > 0 ) 
 	{ 
-		echo str_repeat("\t",$depth);
+		echo str_repeat("\t", $depth);
 		echo "<ul>\n"; 
 	}
 	
